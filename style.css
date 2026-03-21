@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+}
+canvas {
+  display: block;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-planets-container {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  width: 800px;
+
+}
+.planet-container {
+  position: relative;
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  /* Size */
+  width: 150px;
+  height: 150px;
+
+  /* Styling */
+  padding: 15px;
+  background-color: #c9d5e0;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.planet-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform:  translate(-50%,calc(-50% - 60px));
+  
+  font-size: 16px;
+  font-weight: bold;
+}
