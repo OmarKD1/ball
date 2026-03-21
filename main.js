@@ -86,3 +86,8 @@ function setPlanets(planetName, planetContainerColor) {
 setPlanets("Earth", "#c9d5e0");
 setPlanets("Earth", "#c9d5e0");
 setPlanets("Earth", "#c9d5e0");
+setPlanets("Earth", "#c9d5e0");
+setPlanets("Earth", "#c9d5e0");
+setPlanets("Earth", "#c9d5e0");
+setPlanets("Earth", "#c9d5e0");
+setPlanets("Earth", "#c9d5e0");
