@@ -84,10 +84,4 @@ function setPlanets(planetName, planetContainerColor) {
 
 //const planets(planetsSet[],)
 setPlanets("Earth", "#c9d5e0");
-setPlanets("Earth", "#c9d5e0");
-setPlanets("Earth", "#c9d5e0");
-setPlanets("Earth", "#c9d5e0");
-setPlanets("Earth", "#c9d5e0");
-setPlanets("Earth", "#c9d5e0");
-setPlanets("Earth", "#c9d5e0");
-setPlanets("Earth", "#c9d5e0");
+
